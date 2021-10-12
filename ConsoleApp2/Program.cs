@@ -5,7 +5,7 @@ namespace ConsoleApp2
     public interface IMovable
     {
         const int minSpeed = 0;
-        private static int maxSpeed = 60;
+        private static int maxSpeed = 70;
         static double GetTime(double distance, double speed) => distance / speed;
         static int MaxSpeed
         {
